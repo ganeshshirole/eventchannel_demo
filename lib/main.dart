@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   stream: networkStream,
                   builder: (context, snapshot) {
                     return Text(
-                      snapshot.toString(),
+                      snapshot.data.toString(),
                     );
                   })
             ],
